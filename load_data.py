@@ -79,7 +79,7 @@ def fetch_candles(symbol, interval, timeframe):
 
 if __name__ == '__main__':
     symbol = 'KAS_USDT'
-    interval = '1W'
+    interval = '15m'
     timeframe = 350 # 30 is max for 1m | 350 is max for any other
     data = fetch_candles(symbol, interval, timeframe) # 100800 == 350
     print(data)
